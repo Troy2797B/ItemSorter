@@ -1,5 +1,6 @@
 package rocks.zipcode.io;
 
+import java.util.Collection;
 import java.util.Comparator;
 
 /**
@@ -7,6 +8,7 @@ import java.util.Comparator;
  */
 public class ItemSorter implements Comparator<Item>{
     public ItemSorter(Item[] items) {
+
     }
 
     public Item[] sort(Comparator<Item> comparator) {
